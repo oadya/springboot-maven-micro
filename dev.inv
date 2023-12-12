@@ -1,2 +1,2 @@
 [dev-servers]
-13.37.107.167
+13.37.107.167 ansible_user=ec2-user
