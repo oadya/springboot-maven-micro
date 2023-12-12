@@ -9,6 +9,12 @@ import java.util.List;
 @RestController
 public class CourseController {
 //create two endpoints getAllAwsServices and getAllDevopsTools
+
+    @GetMapping("/login")
+    public List<String> index(){
+        return "index";
+    }
+	
     @GetMapping("/getAllAwsServices")
     public List<String> getAllAwsServices(){
         return Arrays.asList("ec2","iam","rds","ecr","eks");
