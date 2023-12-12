@@ -11,7 +11,7 @@ public class CourseController {
 //create two endpoints getAllAwsServices and getAllDevopsTools
 
     @GetMapping("/login")
-    public List<String> index(){
+    public String index(){
         return "index";
     }
 	
