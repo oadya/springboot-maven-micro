@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Login And Registration Form - Easy Tutorials</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
     <div class="hero">
@@ -12,9 +12,9 @@
         <button type="button" class="toggle-btn" onclick="register()">Register</button>
     </div>
     <div class="social-icons">
-        <img src="fb.png">
-        <img src="tw.png">
-        <img src="gp.png">
+        <img src="fb.png" th:src="@{/static/images/fb.png}"/>
+        <img src="tw.png" th:src="@{/static/images/tw.png}"/>
+        <img src="gp.png" th:src="@{/static/images/gp.png}"/>
     </div>
     <form id="login" class="input-group">
         <input type="text" class="input-field" placeholder="User Id" required>
